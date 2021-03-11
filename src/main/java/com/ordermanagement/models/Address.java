@@ -17,5 +17,6 @@ public class Address extends AuditModel{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String landmark;
+    //address
     private String address;
 }
